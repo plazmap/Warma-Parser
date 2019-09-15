@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Numnum, gooddata</title>
+    </head>
+    <body>
+
+            <button class="firebase-button">PUSH TO FIREBASE</button>
+            
+            <div class="displayer">Coincoin</div>
+
+                
+            <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
+            <!-- TODO: Add SDKs for Firebase products that you want to use
+                https://firebase.google.com/docs/web/setup#config-web-app -->
+
+            <script>
+            var firebaseConfig = {
+                apiKey: "AIzaSyCvabrtDxxzzG5zLdplB_bWbcZAJzMZbWs",
+                authDomain: "warma-parser.firebaseapp.com",
+                databaseURL: "https://warma-parser.firebaseio.com",
+                projectId: "warma-parser",
+                storageBucket: "",
+                messagingSenderId: "460201392461",
+                appId: "1:460201392461:web:8c5a68a725ce3258"
+            };
+            firebase.initializeApp(firebaseConfig);
+            </script>
+
+        
+        <script src="js/data.js"></script>
+        <script src="js/parser2.js"></script>
+    </body>
+</html>
